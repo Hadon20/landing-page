@@ -40,16 +40,10 @@ body {
     text-align: center;
 }
 
-.content {
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-}
-
 .first-block {
     display: flex;
     justify-content: space-between;
-    padding: 0 200px;
+    padding: 100px 200px;
     gap: 50px;
 }
 
@@ -74,4 +68,41 @@ button {
     border-radius: 5px;
     background-color: #3882f6;
     color: white;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.windows {
+    display: flex;
+    gap: 200px;
+}
+
+.boxes {
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-radius: 20px;
+    border-color: #3882f6;
+}
+
+.item-window {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.window-info {
+    text-align: center;
 }
