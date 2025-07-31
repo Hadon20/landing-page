@@ -86,7 +86,7 @@ button {
 
 .windows {
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
 }
 
 .boxes {
@@ -105,4 +105,25 @@ button {
 
 .window-info {
     text-align: center;
+}
+
+.third-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 450px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-creator {
+    font-weight: 900;
+    text-align: end;
+    font-size: 22px;
+    margin: 0;
 }
